@@ -9,18 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" />
     <script src="./homeScript.js"></script>
+    <script src="./java-script/load-product-category.js"></script>
+    <script>
+        window.onload = function () {
+            renderProducts();
+        };
 
-    <title>web</title>
+    </script>
+    <title>Home</title>
 </head>
 <body>
     <header id="navi">
         <nav >
             <div class="h2" >A R V I N A</div>
             <ul>
-                <li class="li"><a href="">OFFERS</a></li>
-                <li class="li"><a href="./about.html#faq">FAQ</a></li>
-                <li class="li"><a href="">ABOUT US</a></li>
-                <li class="li"><a href="">CONTACT</a></li>
+                <li class="li"><a href="#o" class="aNav">OFFERS</a></li>
+                <li class="li"><a href="" class="aNav">FAQ</a></li>
+                <li class="li"><a href="./about.html" class="aNav">ABOUT US</a></li>
+                <li class="li"><a href="./contactus.html" class="aNav">CONTACT</a></li>
                 <button onclick="displayLogin()">LOGIN</button>
             </ul>
         </nav>
@@ -50,13 +56,13 @@
     </section>
     <section class="home2">
         <div class="homeButton">
-            <div class="all"><button class="btn1">EXCHANGE</button></div>
-            <div class="bestsellers"><button class="btn1">FAQ</button></div>
+            <div class="all"><a href="./accessories.html"><button class="btn1">ACCESSORIES</button></a></div>
+            <div class="bestsellers"><a href=""><button class="btn1">FAQ</button></a></div>
             <a href="#c"><div class="us"><button class="btn1">BEST SELLERS</button></div></a>
-            <div class="men"><button class="btn1">MEN</button></div>
-            <div class="women"><button class="btn1">WOMEN</button></div>
-            <div class="watches"><button class="btn1">KIDS</button></div>
-            <div class="shoes"><button class="btn1">FOOTWEAR</button></div>
+            <div class="men"><a href="./men/men.html"><button class="btn1">MEN</button></a></div>
+            <div class="women"><a href="./women/women.html"><button class="btn1">WOMEN</button></a></div>
+            <div class="watches"><a href=""><button class="btn1">KIDS</button></a></div>
+            <div class="shoes"><a href="./footwear.html"><button class="btn1">FOOTWEAR</button></a></div>
         </div>
         <div class="oldmoney-text"><h5>OLD MONEY FOR THE MODERN WORLD</h5></div><a name="c"></a>
         <div class="oldmoney-text"><p>Crafted for those who appreciate the quiet luxury of well-made things. Every detail, every stitch, made to last.</p></div>
@@ -67,26 +73,26 @@
             <div class="imgContainer">
                 <div class="imgtxt">
                     <div class="txt">TeaBek sweat shirt Rs.5450.00</div>
-                    <img src="./pics/shirt one frontt.jpeg" width="300px" class="main_img1">
-                    <img src="./pics/shirt one back.jpeg" alt="" class="hover_img1" >
+                    <img src="./images/shirt five front.jpeg" width="300px" class="main_img1">
+                    <img src="./images/shirt five zoom.jpeg" alt="" class="hover_img1" >
                 </div>
                 <div class="imgtxt">
                     <div class="txt">Lined Kinin shirt Rs.4500.00</div>
-                    <img src="./pics/shirt five front.jpeg" width="300px" class="main_img1">
-                    <img src="./pics/shirt five zoom.jpeg" alt="" class="hover_img2" >
+                    <img src="./images/shirt one front.jpeg" width="300px" class="main_img1">
+                    <img src="./images/shirt one back.jpeg" alt="" class="hover_img2" >
                 </div>
                 <div class="imgtxt">
                     <div class="txt">Jakipak Shirt Rs.6700.00</div>
-                    <img src="./pics/shirt four front.jpeg" width="300px" class="main_img3">
-                    <img src="./pics/shirt four zoom.jpeg" alt="" class="hover_img3">
+                    <img src="./images/shirt four front.jpeg" width="300px" class="main_img3">
+                    <img src="./images/shirt four zoom.jpeg" alt="" class="hover_img3">
                 </div>
                 <div class="imgtxt">
                     <div class="txt">Pincy Skirt Rs.9700.00</div>
-                    <img src="./pics/women 13 front.jpg" width="300px" class="main_img3">
-                    <img src="./pics/women 13 side.jpg" alt="" class="hover_img3">
+                    <img src="./images/women 13 front.jpg" width="300px" class="main_img3">
+                    <img src="./images/women 13 side.jpg" alt="" class="hover_img3">
                 </div>
 
-        </div>
+        </div><a name="o"></a>
 
 
         <div class="sale">

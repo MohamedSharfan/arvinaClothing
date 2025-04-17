@@ -10,7 +10,7 @@
             
         }
         body{
-            background-image: url(./pics/mainbg.jpg);
+            background-image: url(./images/mainbg.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -72,12 +72,22 @@
             font-size: 12px;
             border: 1px solid #41644A;
         }
+    
+        a{
+            color: #7D7D7D;
+            text-decoration: none;
+        }
+        a:hover{
+            color: white;
+        }
         .btn1:hover{
             color: white;
+            transition: all 0.4s ease-in-out;
+            transform: scale(1.1);
             background-color: #41644A;
             border: none;
-
         }
+            
         .oldmoney-text{
             text-align: center;
             padding: 10px 10px;
@@ -219,7 +229,7 @@
             margin: 90px auto;
             font-family: "Poppins", sans-serif;
             margin-bottom: 90px;
-            background-image: url(./pics/sale.jpg);
+            background-image: url(./images/sale.jpg);
             background-position: center;
             background-blend-mode: darken;
             background-repeat: no-repeat;
