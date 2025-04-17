@@ -47,7 +47,7 @@
 
  
 body{
-    background-image: url("./pics/aboutbg.jpg");
+    background-image: url("./images/aboutbg.jpg");
     background-position: center;
     background-size: cover;
     /* backdrop-filter: blur(60px); */
