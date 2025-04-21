@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="FAQ.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<body>
+    <nav>
+        <div class="h2">A R V I N A</div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-toggle">&#9776;</label>
+        <ul>
+            <li class="li"><a href="">SHOP</a></li>
+            <li class="li"><a href="">WINTER SALE</a></li>
+            <li class="li"><a href="">ABOUT US</a></li>
+            <li class="li"><a href="">SUPPORT</a></li>
+            <button>CONTACT US</button>
+        </ul>
+    </nav>
+    <br><br><br><br><br><br><br>
+
+
+    
+    <div class="container">
+
+
+        <h1>Frequently asked questions</h1>
+
+        <div class="faq">
+            <h2>1. How do I make a purchase?</h2>
+            <p>To make a purchase, click the 'order now' button and proceed with further directions given by the
+                website.</p>
+        </div>
+
+        <div class="faq">
+            <h2>2. What payment methods do you accept?</h2>
+            <p>We only accept cash on delivery (COD), bank payments,online bank transfer,KOKO,Mintpay,VISA and
+                MasterCard.
+            </p>
+        </div>
+
+        <div class="faq">
+            <h2>3. An item I want to buy is sold out will you be restocking it?</h2>
+            <p>Restocking our styles depends on its demand. If the style is frequently asked about, we will be
+                restocking it within a few weeks. If not, you can pick a similar style using the 'search' feature.</p>
+        </div>
+
+        <div class="faq">
+            <h2>4. Can I ship to multiple addresses?</h2>
+            <p>We ship to one address in one delivery, although you can add a different address as the recipient's
+                address.</p>
+        </div>
+
+        <div class="faq">
+            <h2>5. How long does delivery take, and what are the charges?</h2>
+            <p>Our delivery duration is 3-5 business days. The delivery charges depend on the recipient's location.</p>
+        </div>
+
+        <div class="faq">
+            <h2>6. What is the return notice period?</h2>
+            <p>Any purchase you make will not be eligible to exchange after 7 days. In order to exchange, the garment
+                should be in its original condition and it will only be accepted with its receipt.</p>
+        </div>
+
+        <div class="faq">
+            <h2>7.How do I cancel my order?</h2>
+            <p>You can inform us throught email,call, or through facebook. Please be kind enough to inform us within 24
+                hours after placing the order since the product will be reserved for you.The cancellation should happen
+                within 24 hours of placing the order.</p>
+        </div>
+
+        <div class="faq">
+            <h2> 8.How can I track my order?</h2>
+            <p>When you make a purchase, an email will be sent to you with your order details and it will consist a link
+                that you can click on to track your order </p>
+        </div>
+
+        <div class="faq">
+            <h2>9.Can I change or amend my order once it has been place?</h2>
+            <p>Once an order is placed you will not be able to change or amend the order.</p>
+        </div>
+
+        <div class="faq">
+            <h2>10.Any more questions?</h2>
+            <p>Feel free to contact us our hotline or send us an email, we will be happy to assist you</p>
+        </div>
+    </div>
+
+
+
+    <footer class="foot">
+        <div class="full-wrapper">
+            <div class="about-wrapper">
+                <div class="about">
+                    <h4>More About Company</h4>
+                </div>
+                <div class="about-content">
+                    <p>
+                        Embrace timeless elegance with our Old Money Clothing collection—where sophistication meets
+                        heritage. We blend classic fashion with modern craftsmanship to bring you premium-quality
+                        apparel that exudes quiet luxury. Elevate your wardrobe with pieces inspired by the refined
+                        aesthetics of the past. Stay connected with us for exclusive collections and style updates.
+                    </p>
+                </div>
+            </div>
+            <div class="social-wrapper">
+                <h4>Contact Information</h4>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-map-location"></i>67/2, Main street,Colombo</li>
+                    <li><i class="fa-solid fa-id-badge"></i>+94777678678</li>
+                    <li><i class="fa-solid fa-square-envelope"></i>oldmoneyclothing@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-icons">
+
+        </div>
+    </footer>
+
+    <script>
+       
+        const questions = document.querySelectorAll('.faq h2');
+      
+        questions.forEach(q => {
+          q.addEventListener('click', () => {
+            const answer = q.nextElementSibling;
+            if (answer.style.display === 'block') {
+              answer.style.display = 'none';
+            } else {
+              answer.style.display = 'block';
+            }
+          });
+        });
+      </script>
+      
+
+
+    
+</body>
+</html>

@@ -1,116 +1,84 @@
-products = [
+const products = [
     {
-        title: "DAEGU COTTON COLLAR T-SHIRT",
-        price: "Rs 11,794.92",
-        save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/dresses/dress1.webp",
-        collection: "Casual Wear",
-        about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
+        title: "ULSAN BOMBER JACKET",
+        price: "Rs 7,499.00",
+        save: "SAVE RS 1,500.00",
+        thumbnail: "../assest/men/jackets/(01).jpg",
+        collection: "Winter Wear",
+        about: "Classic bomber jacket with ribbed cuffs and zip closure — stylish and warm."
     },
     {
-        title: "SEOUL FLORAL SUMMER DRESS",
-        price: "Rs 9,499.50",
+        title: "GWANGJU PUFFER JACKET",
+        price: "Rs 8,999.00",
         save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/dresses/dress2.webp",
-        collection: "Summer Collection",
-        about: "Lightweight floral dress perfect for sunny days and vacations."
+        thumbnail: "../assest/men/jackets/(02).jpg",
+        collection: "Winter Wear",
+        about: "Insulated puffer jacket with a water-resistant outer shell, built for cold climates."
     },
     {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/dresses/dress3.jpg",
-        collection: "Linen Essentials",
-        about: "A breezy linen wrap dress that blends comfort with elegance."
-    },
-    {
-        title: "JEJU PRINTED MAXI",
-        price: "Rs 13,250.00",
-        save: "SAVE RS 3,750.00",
-        thumbnail: "../assest/women/dresses/dress4.avif",
-        collection: "Maxi Dresses",
-        about: "Printed maxi dress inspired by the coastal beauty of Jeju Island."
-    },
-    {
-        title: "INCHEON CHECKED MIDI",
-        price: "Rs 7,950.00",
-        save: "SAVE RS 1,999.00",
-        thumbnail: "../assest/women/dresses/dress6.jpg",
-        collection: "Workwear",
-        about: "Midi dress with a checked pattern — classic and professional."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/dresses/dress8.jpg",
-        collection: "Linen Essentials",
-        about: "Elegant wrap design with natural linen texture for breathable comfort."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/dresses/dress1.webp",
-        collection: "Linen Essentials",
-        about: "Refined version of the wrap dress, featuring premium stitching."
-    },
-    {
-        title: "DAEGU COTTON COLLAR T-SHIRT",
-        price: "Rs 11,794.92",
-        save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/dresses/dress1.webp",
+        title: "DAEJEON DENIM JACKET",
+        price: "Rs 6,799.00",
+        save: "SAVE RS 1,200.00",
+        thumbnail: "../assest/men/jackets/(03).jpg",
         collection: "Casual Wear",
-        about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
+        about: "Rugged denim jacket with faded wash and durable metal buttons."
     },
     {
-        title: "SEOUL FLORAL SUMMER DRESS",
-        price: "Rs 9,499.50",
+        title: "ANDONG HOODED WINDBREAKER",
+        price: "Rs 5,499.00",
+        save: "SAVE RS 999.00",
+        thumbnail: "../assest/men/jackets/(04).jpg",
+        collection: "Outdoor Wear",
+        about: "Lightweight windbreaker with a hood — perfect for unpredictable weather."
+    },
+    {
+        title: "SUNCHEON PARKA JACKET",
+        price: "Rs 9,499.00",
         save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/dresses/dress2.webp",
-        collection: "Summer Collection",
-        about: "Lightweight floral dress perfect for sunny days and vacations."
+        thumbnail: "../assest/men/jackets/(05).jpg",
+        collection: "Winter Wear",
+        about: "Heavy-duty parka with fur-lined hood and deep pockets for extreme cold."
     },
     {
-        title: "BUSAN LINEN WRAP DRESS",
+        title: "YEOSU SUEDE JACKET",
+        price: "Rs 7,999.00",
+        save: "SAVE RS 1,499.00",
+        thumbnail: "../assest/men/jackets/(06).jpg",
+        collection: "Premium Wear",
+        about: "Smooth suede jacket with inner fleece lining for luxe comfort."
+    },
+    {
+        title: "ICHEON TRACK JACKET",
+        price: "Rs 4,299.00",
+        save: "SAVE RS 800.00",
+        thumbnail: "../assest/men/jackets/(07).jpg",
+        collection: "Sportswear",
+        about: "Zip-up track jacket with contrast stripes — sporty and breathable."
+    },
+    {
+        title: "CHUNCHEON MOTORCYCLE JACKET",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/dresses/dress3.jpg",
-        collection: "Linen Essentials",
-        about: "A breezy linen wrap dress that blends comfort with elegance."
+        thumbnail: "../assest/men/jackets/(08).jpg",
+        collection: "Rider Series",
+        about: "Edgy faux leather biker jacket with reinforced panels and a bold look."
     },
     {
-        title: "JEJU PRINTED MAXI",
-        price: "Rs 13,250.00",
-        save: "SAVE RS 3,750.00",
-        thumbnail: "../assest/women/dresses/dress4.avif",
-        collection: "Maxi Dresses",
-        about: "Printed maxi dress inspired by the coastal beauty of Jeju Island."
+        title: "GIMHAE PADDED VEST JACKET",
+        price: "Rs 5,799.00",
+        save: "SAVE RS 1,200.00",
+        thumbnail: "../assest/men/jackets/(09).jpg",
+        collection: "Layered Essentials",
+        about: "Padded vest for layering, with snap buttons and zipper — lightweight and versatile."
     },
     {
-        title: "INCHEON CHECKED MIDI",
-        price: "Rs 7,950.00",
-        save: "SAVE RS 1,999.00",
-        thumbnail: "../assest/women/dresses/dress6.jpg",
-        collection: "Workwear",
-        about: "Midi dress with a checked pattern — classic and professional."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/dresses/dress8.jpg",
-        collection: "Linen Essentials",
-        about: "Elegant wrap design with natural linen texture for breathable comfort."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/dresses/dress1.webp",
-        collection: "Linen Essentials",
-        about: "Refined version of the wrap dress, featuring premium stitching."
-    },
+        title: "GEOJE TRENCH COAT",
+        price: "Rs 11,250.00",
+        save: "SAVE RS 2,750.00",
+        thumbnail: "../assest/men/jackets/(10).jpg",
+        collection: "Classic Wear",
+        about: "Elegant trench coat with belt closure, perfect for a refined outerwear look."
+    }
 ];
 
 

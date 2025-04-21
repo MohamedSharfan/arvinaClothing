@@ -1,150 +1,84 @@
 const products = [
     {
-        title: "DAEGU COTTON COLLAR T-SHIRT",
-        price: "Rs 11,794.92",
-        save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/outerware/(1).avif",
-        collection: "Casual Wear",
-        about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
+        title: "ULSAN SLIM-FIT JEANS",
+        price: "Rs 3,999.00",
+        save: "SAVE RS 800.00",
+        thumbnail: "../assest/men/jeans/(01).jpg",
+        collection: "Denim Wear",
+        about: "Slim-fit denim with slight stretch for all-day comfort and modern style."
     },
     {
-        title: "SEOUL FLORAL SUMMER DRESS",
-        price: "Rs 9,499.50",
-        save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/outerware/(1).jpg",
-        collection: "Summer Collection",
-        about: "Lightweight floral dress perfect for sunny days and vacations."
+        title: "GWANGJU STRAIGHT LEG JEANS",
+        price: "Rs 4,299.00",
+        save: "SAVE RS 950.00",
+        thumbnail: "../assest/men/jeans/(02).jpg",
+        collection: "Classic Denim",
+        about: "Straight leg jeans with a traditional cut and timeless blue wash."
     },
     {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/outerware/(1).webp",
-        collection: "Linen Essentials",
-        about: "A breezy linen wrap dress that blends comfort with elegance."
+        title: "DAEJEON RIPPED DENIM",
+        price: "Rs 4,799.00",
+        save: "SAVE RS 1,100.00",
+        thumbnail: "../assest/men/jeans/(03).jpg",
+        collection: "Street Style",
+        about: "Ripped denim jeans for a bold, edgy streetwear look."
     },
     {
-        title: "JEJU PRINTED MAXI",
-        price: "Rs 13,250.00",
-        save: "SAVE RS 3,750.00",
-        thumbnail: "../assest/women/outerware/(2).jpg",
-        collection: "Maxi Dresses",
-        about: "Printed maxi dress inspired by the coastal beauty of Jeju Island."
+        title: "ANDONG TAPERED FIT JEANS",
+        price: "Rs 4,599.00",
+        save: "SAVE RS 999.00",
+        thumbnail: "../assest/men/jeans/(04).jpg",
+        collection: "Smart Casual",
+        about: "Tapered jeans that offer a tailored fit from hip to ankle."
     },
     {
-        title: "INCHEON CHECKED MIDI",
-        price: "Rs 7,950.00",
-        save: "SAVE RS 1,999.00",
-        thumbnail: "../assest/women/outerware/(2).webp",
-        collection: "Workwear",
-        about: "Midi dress with a checked pattern — classic and professional."
+        title: "SUNCHEON LIGHT WASH JEANS",
+        price: "Rs 3,750.00",
+        save: "SAVE RS 850.00",
+        thumbnail: "../assest/men/jeans/(05).jpg",
+        collection: "Summer Denim",
+        about: "Light wash denim for casual summer days and laid-back weekends."
     },
     {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/outerware/(3).jpg",
-        collection: "Linen Essentials",
-        about: "Elegant wrap design with natural linen texture for breathable comfort."
+        title: "YEOSU SKINNY JEANS",
+        price: "Rs 4,250.00",
+        save: "SAVE RS 1,000.00",
+        thumbnail: "../assest/men/jeans/(06).jpg",
+        collection: "Modern Fit",
+        about: "Skinny fit jeans designed for a sharp, form-hugging silhouette."
     },
     {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/outerware/(4).jpg",
-        collection: "Linen Essentials",
-        about: "Refined version of the wrap dress, featuring premium stitching."
+        title: "ICHEON BLACK DENIM JEANS",
+        price: "Rs 4,499.00",
+        save: "SAVE RS 950.00",
+        thumbnail: "../assest/men/jeans/(07).jpg",
+        collection: "Essentials",
+        about: "Classic black denim jeans — versatile and easy to pair with any top."
     },
     {
-        title: "DAEGU COTTON COLLAR T-SHIRT",
-        price: "Rs 11,794.92",
-        save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/outerware/(5).jpg",
-        collection: "Casual Wear",
-        about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
+        title: "CHUNCHEON DISTRESSED JEANS",
+        price: "Rs 4,899.00",
+        save: "SAVE RS 1,200.00",
+        thumbnail: "../assest/men/jeans/(08).jpg",
+        collection: "Urban Wear",
+        about: "Distressed jeans with faded details for a rugged, urban look."
     },
     {
-        title: "SEOUL FLORAL SUMMER DRESS",
-        price: "Rs 9,499.50",
-        save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/outerware/(6).jpg",
-        collection: "Summer Collection",
-        about: "Lightweight floral dress perfect for sunny days and vacations."
+        title: "GIMHAE BOOTCUT JEANS",
+        price: "Rs 3,999.00",
+        save: "SAVE RS 850.00",
+        thumbnail: "../assest/men/jeans/(09).jpg",
+        collection: "Retro Denim",
+        about: "Bootcut jeans inspired by vintage fashion — flared and flattering."
     },
     {
-        title: "DAEGU COTTON COLLAR T-SHIRT",
-        price: "Rs 11,794.92",
-        save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/outerware/(1).avif",
-        collection: "Casual Wear",
-        about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
-    },
-    {
-        title: "SEOUL FLORAL SUMMER DRESS",
-        price: "Rs 9,499.50",
-        save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/outerware/(1).jpg",
-        collection: "Summer Collection",
-        about: "Lightweight floral dress perfect for sunny days and vacations."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/outerware/(1).webp",
-        collection: "Linen Essentials",
-        about: "A breezy linen wrap dress that blends comfort with elegance."
-    },
-    {
-        title: "JEJU PRINTED MAXI",
-        price: "Rs 13,250.00",
-        save: "SAVE RS 3,750.00",
-        thumbnail: "../assest/women/outerware/(2).jpg",
-        collection: "Maxi Dresses",
-        about: "Printed maxi dress inspired by the coastal beauty of Jeju Island."
-    },
-    {
-        title: "INCHEON CHECKED MIDI",
-        price: "Rs 7,950.00",
-        save: "SAVE RS 1,999.00",
-        thumbnail: "../assest/women/outerware/(2).webp",
-        collection: "Workwear",
-        about: "Midi dress with a checked pattern — classic and professional."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/outerware/(3).jpg",
-        collection: "Linen Essentials",
-        about: "Elegant wrap design with natural linen texture for breathable comfort."
-    },
-    {
-        title: "BUSAN LINEN WRAP DRESS",
-        price: "Rs 10,999.00",
-        save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/outerware/(4).jpg",
-        collection: "Linen Essentials",
-        about: "Refined version of the wrap dress, featuring premium stitching."
-    },
-    {
-        title: "DAEGU COTTON COLLAR T-SHIRT",
-        price: "Rs 11,794.92",
-        save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/outerware/(5).jpg",
-        collection: "Casual Wear",
-        about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
-    },
-    {
-        title: "SEOUL FLORAL SUMMER DRESS",
-        price: "Rs 9,499.50",
-        save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/outerware/(6).jpg",
-        collection: "Summer Collection",
-        about: "Lightweight floral dress perfect for sunny days and vacations."
-    },
-    
-    
+        title: "GEOJE RAW DENIM",
+        price: "Rs 5,250.00",
+        save: "SAVE RS 1,500.00",
+        thumbnail: "../assest/men/jeans/(10).jpg",
+        collection: "Premium Denim",
+        about: "Raw, untreated denim that molds to your body over time — durable and unique."
+    }
 ];
 
 
