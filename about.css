@@ -314,6 +314,34 @@ body{
   .social-icons a.tiktok:hover {
     background-color: #000000;
   }
+
+  .clothing-table {
+    padding: 40px;
+    background-color: #1a0101;
+    text-align: center;
+  }
+  
+  .clothing-table table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .clothing-table th, .clothing-table td {
+    border: 1px solid #180101;
+    padding: 12px;
+  }
+  
+  .clothing-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .clothing-table tr:nth-child(even) {
+    background-color: #1a0101;
+  }
+  
   
   
   
